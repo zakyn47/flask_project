@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+<h1>Tipsport CZ</h1>
+
+{% block content %}
+<h3> Tipsport CZ games popularity </h3>
+<form>{{ data_cz | safe }}</form>
+<h3> Tipsport SK games popularity </h3>
+<form>{{ data_sk | safe }}</form>
+{% endblock %}
